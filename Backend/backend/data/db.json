@@ -1,6 +1,6 @@
 {
   "ids": {
-    "Todo": 8
+    "Todo": 9
   },
   "models": {
     "Todo": {
@@ -10,7 +10,8 @@
       "4": "{\"title\":\"outing\",\"desc\":\"go for a walk\",\"isComplete\":true,\"id\":4}",
       "5": "{\"title\":\"groceries\",\"desc\":\"buy milk, sugar, eggs\",\"isComplete\":true,\"id\":5}",
       "6": "{\"title\":\"events to attend\",\"desc\":\"wedding, birthday party\",\"isComplete\":true,\"id\":6}",
-      "7": "{\"title\":\"todo\",\"desc\":\"take a bath\",\"isComplete\":true,\"id\":7}"
+      "7": "{\"title\":\"todo\",\"desc\":\"take a bath\",\"isComplete\":true,\"id\":7}",
+      "8": "{\"title\":\"outing\",\"desc\":\"going for a walk\",\"isComplete\":true,\"id\":8}"
     }
   }
 }

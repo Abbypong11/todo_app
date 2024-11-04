@@ -1,6 +1,11 @@
+import {ITodo} from "@/types/Todo"
+import React from "react";
 
+interface TodoListProps {
+  todos: ITodo[];
+}
 
-const TodoList = () => {
+const TodoList: React.FC<TodoListProps> = ({todos}) => {
   return (
     <div className="overflow-x-auto">
   <table className="table">
@@ -12,10 +17,15 @@ const TodoList = () => {
       </tr>
     </thead>
     <tbody>
-      {/* row 1 */}
+      {todos.map((todos) => (
+        <tr key={todos.id}>
+           <td>{todos.title}</td>
+           <td>{todos.des}</td>
+
+        </tr>
+      ))}
       <tr>
-        <td>Take a walk</td>
-        <td><button className="bg-blue-500">Edit</button></td>
+       
       </tr>
     </tbody>
   </table>
